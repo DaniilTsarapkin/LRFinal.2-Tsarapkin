@@ -56,6 +56,7 @@ public class Final{
     public static void main(String[] args) throws Exception{
         while (true){
         System.out.println(FracCalculator.RPNtoAnswer(FracCalculator.ExpressionToRPN(Expression.getExpression())));
+        System.out.println("Привет");
     }
 }
 }
